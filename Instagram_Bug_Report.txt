@@ -1,0 +1,26 @@
+=====================================================
+Bug Title: Deleted story still appears
+Steps:
+1. Upload story
+2. Delete immediately
+3. Refresh
+Expected:
+Story should disappear completely.
+Actual:
+Shows “Sorry there might be a problem”.
+Severity: Medium
+Priority: Medium
+=====================================================
+
+=====================================================
+Bug Title: Profile picture takes too long to upload
+Steps:
+1. Login
+2. Upload new profile picture
+Expected:
+Updates in 10–15 seconds.
+Actual:
+Takes 30 seconds.
+Severity: Medium
+Priority: High
+=====================================================
