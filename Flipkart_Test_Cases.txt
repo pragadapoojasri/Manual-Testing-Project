@@ -1,0 +1,19 @@
+=====================================================
+Test Case ID: TC_FLIPKART_001
+Scenario: Verify login does not accept more than 10 digits
+Steps:
+1. Open Flipkart
+2. Enter 11-digit number
+Expected:
+Show error “Enter valid mobile number”.
+=====================================================
+
+=====================================================
+Test Case ID: TC_FLIPKART_002
+Scenario: Verify email is rejected in phone field
+Steps:
+1. Open Flipkart
+2. Enter 'abc@gmail.com' in phone field
+Expected:
+Show error “Enter valid mobile number”.
+=====================================================
