@@ -1,0 +1,81 @@
+=====================================================
+Test Case ID: TC_INSTAGRAM_001
+Scenario: User should see the posted picture in profile
+Steps:
+1. Login to Instagram
+2. Tap '+' and upload a picture
+3. Publish the post
+4. Go to profile
+Expected Result:
+Picture should appear in profile grid.
+=====================================================
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_002
+Scenario: Verify profile picture updates
+Steps:
+1. Login
+2. Go to profile
+3. Tap profile picture → Upload new image
+Expected:
+Profile picture should update instantly.
+=====================================================
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_003
+Scenario: User can share reels to DM
+Steps:
+1. Login
+2. Open any reel
+3. Tap Share
+4. Select person
+5. Click Send
+Expected:
+Reel should appear in recipient’s DM.
+=====================================================
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_004
+Scenario: User can like or comment on the post
+Steps:
+1. Login
+2. Open any reel
+3. Like a reel
+Expected:
+Reel should appear in the like history of the user
+=====================================================
+
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_005
+Scenario: Verify that reels viewed by the user appear in watch history
+Steps:
+1. Login
+2. Open any reel
+3. Watch any reel
+4. Go to profile->Menu->"Your Activity"
+5. click watch history
+Expected:
+Reel should appear  in the user's watch history
+=====================================================
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_006
+Scenario: Verify User can  view  reels using on reels section
+Steps:
+1. Login
+2. click on reels icon at bottom navigation bar
+Expected:
+Reel should be shown
+=====================================================
+
+=====================================================
+Test Case ID: TC_INSTAGRAM_007
+Scenario: User can view  Messages by clicking on Messages Icon
+Steps:
+1. Login
+2. click on message Icon icon
+Expected:
+The User's DM should open and show recent conversation
+=====================================================
+
